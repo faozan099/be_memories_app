@@ -6,7 +6,7 @@ function responSeccess(statusCode, data, message, res) {
 }
 
 function responFailed(statusCode, message, res) {
-  res.statsu(statusCode).json({
+  res.status(statusCode).json({
     message: message,
   });
 }
